@@ -17,7 +17,7 @@ body {
     "header"
     "sobre"
     "skills"
-    "servicos"
+    "projetos"
     "exper"
     "slide"
     "blog"
@@ -251,15 +251,8 @@ font-size: 20px;
     word-wrap: break-word;
 }
 
-
-
-
-
-
-
-
 .servicos{
-    grid-area: servicos;
+    grid-area: projetos;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -307,14 +300,12 @@ font-size: 20px;
     font-size: 12px;
 }
 
-.service-title hr{
-    display: flex;
-}
 
-.service-title h1{
+.service-title h2{
     display: flex;
-    justify-content: center;
-    margin-bottom: 2rem;     
+    justify-content: center;  
+    font-size: 50px;
+    margin:20px 0 20px;   
 }
 
 
@@ -325,71 +316,60 @@ font-size: 20px;
 .exper{
     grid-area:exper ;
     width: 100%;
+    height:700px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     background-color:slateblue;
     justify-content: center;
     align-items: center;
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-.exper-cards {
+.exper-title {
     width: 100%;
-    height: 400px;
     max-width: 60%;
     display: flex;
-    justify-content: space-between;
-    position: absolute;
+    flex-direction: column;
+    align-items: center;
 }
 
+.exper-title h2{
+    font-size: 50px;
+    margin:0px 0 20px;
 
-
-.exper-card-left {
+}
+.alingn-exper {
     display: flex;
     flex-direction: column;
-    background-color: rgb(255, 255, 255);
-    max-width: 50%;
+    position: absolute;
     width: 100%;
     height: 100%;
+    justify-content: center;
+    align-items: center;
 }
+
 .exper-cards {
     width: 100%;
     height: 400px;
-    max-width: 60%;
+    max-width: 30%;
+    min-width: 300px;
     display: flex;
-    justify-content: space-between;
 }
-
-
 
 .exper-card-left {
     display: flex;
     flex-direction: column;
-    background-color: rgb(255, 255, 255);
-    max-width: 50%;
+    background-color: rgb(255, 255, 255, 0.2);
     width: 100%;
     height: 100%;
     margin: 5px 5px;
 }
 
-
-.contato-img {
+.contato-iframe {
     width: 100%;
     height: 100%;
 
 }
-.contato-img img {
+.contato-iframe iframe {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -435,264 +415,6 @@ font-size: 20px;
 
 }
 
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.exper-card-right {
-    display: flex;
-    max-width: 50%;
-    width: 100%;
-    height: auto;
-    flex-direction: column;
-    justify-content: center;
-    margin: 5px 5px;
-    
-}
-
-
-
-.form{
-    background-color: rgb(255, 188, 4);
-    max-width: 100%;
-    max-height: 100%;
-    width: 100%;
-    height: 100%;
-}
-
-
-
-.contact-form input{
-    width: 100%;
-}
-
-.contact-form textarea{
-    width: 100%;
-}
-
-
-.form-div {
-    display: flex;
-    width: 100%;
-
-}
-
-.contact-form-email, .contact-form-email-message{
-    background-color:#FFF;
-    border:0px solid #eee;
-    border-radius:3px;
-    
-   
-   
-}
-.contact-form-name{
-    max-width: 100%;
-    width:100%;
-    height:50px
-}
-
-.contact-form-email{
-    max-width: 100%;
-    width:100%;
-    height:50px
-}
-.contact-form-email-message{
-    max-width: 100%;
-    width: 100%;
-    max-height: 100%;
-    height:150px
-}
-.contact-form-button-submit{
-    max-width:100%;
-    width:100%;
-    z-index:0;
-    margin:4px 0 0;
-    padding:10px !important;
-    text-align:center;
-    cursor:pointer;
-    background:#27ae60;
-    border:0;
-    height:auto;
-    -webkit-border-radius:2px;
-    -moz-border-radius:2px;
-    -ms-border-radius:2px;
-    -o-border-radius:2px;
-    border-radius:2px;
-    text-transform:uppercase;
-    -webkit-transition:all .2s ease-out;
-    -moz-transition:all .2s ease-out;
-    -o-transition:all .2s ease-out;
-    -ms-transition:all .2s ease-out;
-    transition:all .2s ease-out;
-    color:#FFF} 
-    .contact-form-button-submit:hover{
-        background:#2c3e50;}
-    .contact-form-email:focus, .contact-form-name:focus, .contact-form-email-message:focus{
-        box-shadow:none !important;
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-.slide{
-    grid-area: slide;
-    display: flex;
-    justify-content: center;
-
-
-}
-.slide-cards{
-    width: 100%;
-    min-height: 400px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.cards-card{
-    width: 25%;
-    background-color: rgb(255, 188, 4);
-    display: flex;
-    border: 1px solid #000;
-    bottom: 10%;
-    flex-direction: column;
-    justify-content: flex-end;
-    padding-left: 2%;
-    padding-bottom: 2%;
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.blog{    
-    grid-area: blog ;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: antiquewhite;
-
-}
-
-.main-blog{
-    width: 100%;
-    max-width: 60%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-bottom: 4rem;
-}
-.blog-title h1{
-    display: flex;
-    justify-content: center;
-    margin-top: 4rem; 
-    margin-bottom: 2rem;     
-}
-
-.blog-title hr{
-    border-bottom: 2px solid rgb(255, 188, 4);
-    margin: 2rem;
-    width: 5rem;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    
-}
-
-
-.blog-cards {
-   width: 100%;
-   min-height: 300px;
-   display: flex;
-   justify-content:space-between;
-}
-.blog-cards-card {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    grid-gap: 10px;
-
-
-}
-.quacard{
-    width: 300px;
-    height: 20rem;
-    background-color: azure;
-    margin: 2%;
-}
-
-.cablog-cards-cardrd p {
-    text-align: center;
-    max-width: 80%;
-}
-
-.span{
-    display: flex;
-    justify-content:flex-end;
-    font-size: 12px;
-}
-.span span{
-    padding:0  10px 0 10px;
-}
-
-
-
-
-
-
-
-
-
-
-
-.coments{
-    
-    grid-area: coments;
-    display: flex;
-    justify-content: center;
-
-}
-
-.outros{
-    
-    grid-area: outros;
-    display: flex;
-    justify-content: center;
-
-}
 
 .footer{
     grid-area: footer;

@@ -40,6 +40,11 @@ body {
     justify-content: center;
 }
 
+.title ::selection {
+    background: rgb(255, 188, 4);
+    color:rgb(255, 255, 255);
+}
+
 .img-wrapper {
     width: 100%;
     height: 100%;
@@ -127,6 +132,11 @@ font-size: 20px;
     align-items: center;
     margin:2rem 0;
 
+}
+
+.sobre ::selection {
+    background: rgb(255, 188, 4);
+    color:rgb(255, 255, 255);
 }
 .sobre-box {
     width: 100%;
@@ -246,6 +256,11 @@ font-size: 20px;
     font-size: 50px;
     margin:20px 0 20px;   
 }
+.projetos-title ::selection {
+    background: rgb(255, 188, 4);
+    color:rgb(255, 255, 255);
+}
+
 .main-projetos{
     width: 100%;
     max-width:80%;
@@ -368,7 +383,10 @@ font-size: 20px;
     justify-content: center;
     align-items: center;
 }
-
+.alingn-contato ::selection {
+    background: rgb(255, 188, 4);
+    color:rgb(255, 255, 255);
+}
 .contato-cards {
     width: 100%;
     height: 200px;
@@ -451,6 +469,11 @@ font-size: 20px;
     width: 100%;
     padding: 50px 0 50px;
     
+}
+
+.footer-box ::selection {
+    background: rgb(255, 188, 4);
+    color:rgb(255, 255, 255);
 }
 
 .footer-button {

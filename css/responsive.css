@@ -52,11 +52,7 @@
         flex-direction: column;
         
     }
-    .cards{
-        max-width:100%;
-        display: flex;
-        justify-content: space-between;
-    }
+
 }
 
 @media only screen and (max-width:700px){
@@ -69,14 +65,7 @@
         display: flex;
         align-items: center;
     }
-    .cards {
-        width: 100%;
-        max-width: 60%;
-        display: grid;
-        grid-template-rows: 1fr 1fr 1fr ;
-        grid-template-columns: 1fr;
-        color: rgb(253, 253, 253);
-    }
+
 
 }
 
